@@ -2,25 +2,25 @@
 test
     
     
-    | **WEB-INF**   
-            | **web.xml**
-            | **lib**
-            | **classes**
+    | WEB-INF //*
+            | web.xml  //*
+            | lib //*
+            | classes //*
             | tags
             | database.properties
     
-    | **META-INF**
+    | META-INF //*
     
     
-    | index.jsp //   自定义文件
-    | js //   自定义目录 
-    | css //   自定义目录 
-    | images //   自定义目录 
+    | index.jsp
+    | js    
+    | css  
+    | images 
     |  //还可以根据业务增加文件和文件夹
  
- **WEB-INF** 
+ 
 ## 注意：
-1. 粗体字为java规范中的基本文件或者文件夹 不可删除和修改文件或者文件夹名 
+1. //*  为java规范中的基本文件或者文件夹 不可删除和修改文件或者文件夹名 
 2. index.jsp js css images 以及WEB-INF和META-INF文件夹以外的 都为公共目录 都可以被外部网站用户访问
 
 
